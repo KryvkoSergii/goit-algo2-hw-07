@@ -78,12 +78,14 @@ The function uses the Splay Tree data structure to store the calculated values. 
 Create a set of Fibonacci numbers from 0 to 950 in steps of 50: 0, 50, 100, 150, ....
 Use the timeit module to measure the execution time of the calculations.
 For each value of n, calculate the average execution time of the Fibonacci number calculation using the LRU cache and the Splay Tree.
+
 3. Construct a graph that compares the execution time for the two approaches:
 
 Use the matplotlib library to construct the graph.
 On the x-axis, display the value of n — the Fibonacci number.
 On the y-axis — the average execution time in seconds.
 Add a legend to the graph that indicates the two approaches: LRU Cache and Splay Tree.
+
 4. Draw conclusions about the efficiency of both approaches based on the resulting graph.
 
 5. In addition to plotting the graph, output a text table containing the value of n, the average execution time for the LRU Cache, and the Splay Tree. The table should be formatted for easy reading.
